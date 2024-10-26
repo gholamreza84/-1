@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-26 05:57:21 PM"/>
+        <attribute name="created" value="UEM7REVTS1RPUC1MQUhCUFNROzIwMjQtMTAtMjY7MDQ6NDE6NDEgUE07MjUyOA=="/>
+        <attribute name="edited" value="UEM7REVTS1RPUC1MQUhCUFNROzIwMjQtMTAtMjY7MDU6NTc6MjEgUE07MTsyNjQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, n" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="0"/>
+            <output expression="&quot;enter a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;enter b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;enter n&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="c&lt;n">
+                <assign variable="c" expression="a+b"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="c"/>
+            </while>
+            <if expression="c==n">
+                <then>
+                    <output expression="&quot;n &#1583;&#1585;&#1583;&#1606;&#1576;&#1575;&#1604;&#1607; &#1575;&#1587;&#1578;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;n &#1583;&#1585;&#1583;&#1606;&#1576;&#1575;&#1604;&#1607; &#1606;&#1740;&#1587;&#1578;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
